@@ -35,7 +35,7 @@ pageInfo {
 `
 
 const getAllProductsQuery = `
-query getAllProducts($first: Int = 10) {
+query getAllProducts($first: Int = 250) {
   products(first: $first) {
     ${productConnection}
   }
