@@ -3,7 +3,7 @@ import fetchApi from '../utils/fetch-api'
 import { normalizeProduct } from '../utils/normaliza'
 
 import { ProductConnection } from '../schema'
-import { Product } from '../../common/types/product'
+import { Product } from '@common/types/product'
 
 type ReturnType = {
   products: ProductConnection
