@@ -5,8 +5,8 @@ const { withFrameworkConfig } = require('./src/framework/common/config')
 
 const isProd = process.env.NODE_ENV === 'production'
 
-module.exports = withPWA(
-  withFrameworkConfig({
+module.exports = withFrameworkConfig(
+  withPWA({
     reactStrictMode: true,
     pwa: {
       dest: 'public',

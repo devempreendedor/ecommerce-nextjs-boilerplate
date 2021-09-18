@@ -4,6 +4,8 @@ import getAllproducts from '@framework/product/get-all-products'
 export async function getStaticProps() {
   const products = await getAllproducts()
 
+  console.log('prod', products)
+
   return {
     props: {
       products
