@@ -17,8 +17,8 @@
     "paths": {
       "@common": ["src/framework/common"],
       "@common/*": ["src/framework/common/*"],
-      "@framework": ["src/framework/bigcommerce"],
-      "@framework/*": ["src/framework/bigcommerce/*"]
+      "@framework": ["src/framework/shopify"],
+      "@framework/*": ["src/framework/shopify/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

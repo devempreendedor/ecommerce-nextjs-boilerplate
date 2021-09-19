@@ -13,7 +13,7 @@ module.exports = withFrameworkConfig(
       disable: !isProd
     },
     framework: {
-      name: 'shopify'
+      name: 'shopify_local'
     },
     i18n: {
       locales: ['pt-BR', 'en-US'],
