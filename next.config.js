@@ -12,6 +12,9 @@ module.exports = withFrameworkConfig(
       dest: 'public',
       disable: !isProd
     },
+    framework: {
+      name: 'shopify'
+    },
     i18n: {
       locales: ['pt-BR', 'en-US'],
       defaultLocale: 'pt-BR'
